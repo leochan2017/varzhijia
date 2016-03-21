@@ -1,7 +1,7 @@
 /*
     接口名称 : 获取当前用户信息
-	
-	绝对路径 : http://www.varzhijia.com/bbs/getUserInfo
+    
+    绝对路径 : http://www.varzhijia.com/bbs/getUserInfo
     相对路径 : /bbs/getUserInfo
     请求参数 : 空
     请求方式 : GET
