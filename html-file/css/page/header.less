@@ -1,0 +1,61 @@
+#header {
+    height: 160px;
+}
+
+.top-bar {
+    background-color: #fafafa;
+    height: 30px;
+    font: 13px/30px Arial, "微软雅黑";
+    color: #666;
+    position: relative;
+    .left {}
+    .right {
+        position: absolute;
+        top: 0;
+        right: 0;
+        a {
+            margin-right: 40px;
+            color: #858585;
+            &:hover {
+                .comm-opacity;
+            }
+        }
+    }
+}
+
+.nav_wrapper {
+    position: relative;
+    background-image: url(../images/header.png);
+    background-repeat: no-repeat;
+    background-position: 0 -130px;
+    height: 130px;
+    background-position: 50% 0;
+    .logo {
+        padding: 12px 0 0 10px;
+    }
+    .right {
+        position: absolute;
+        top: 40px;
+        right: 50px;
+        height: 130px;
+        vertical-align: middle;
+        div {
+            float: left;
+            width: 220px;
+            height: 45px;
+            margin-right: 20px;
+            border-right: 1px dotted #4d4d4d;
+            ul li {
+                width: 70px;
+                float: left;
+                margin-bottom: 8px;
+                a {
+                    color: @comm-c-hui;
+                    &:hover {
+                        .comm-opacity;
+                    }
+                }
+            }
+        }
+    }
+}
