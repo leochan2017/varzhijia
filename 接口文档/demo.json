@@ -1,6 +1,6 @@
 /*
     接口名称 : 获取当前用户信息
-    
+
     绝对路径 : http://www.varzhijia.com/bbs/getUserInfo
     相对路径 : /bbs/getUserInfo
     请求参数 : 空
@@ -10,11 +10,21 @@
 
 // 返回 :
 var res = {
-    "data": {
-        "id": 001,
+    "messagecode": "",
+    "data": [{
+        "id": "001",
         "name": "leo",
         "avatar": "images/user1.png"
-    },
+    },{
+        "id": "001",
+        "name": "leo",
+        "avatar": "images/user1.png"
+    },{
+        "id": "001",
+        "name": "leo",
+        "avatar": "images/user1.png"
+    }
+  ],
     "errcode": 0,
     "errmsg": "成功"
 }
