@@ -1,5 +1,6 @@
 .index-list {
-    height: 90px;
+    height: 60px;
+    margin-bottom: 30px;
     ul {
         margin-top: 20px;
         li {
@@ -26,6 +27,7 @@
 
 .index-hotnew {
     position: relative;
+    margin-bottom: 30px;
     height: 590px;
     .left {
         width: 550px;
@@ -102,6 +104,78 @@
         // border: 1px solid #000;
         ul > li {
             margin-bottom: 20px;
+        }
+    }
+}
+
+.index-hotgame {
+    margin-bottom: 30px;
+    .title {
+        height: 28px;
+        background-color: #e3e3e3;
+        h2 {
+            width: 88px;
+            height: 28px;
+            line-height: 28px;
+            color: #f2a455;
+            background-color: #fff;
+            margin-left: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: 22px;
+        }
+    }
+    .content {
+        overflow: hidden;
+        ul > li {
+            position: relative;
+            width: 210px;
+            height: 122px;
+            display: inline-block;
+            margin-top: 20px;
+            margin-right: 10px;
+            margin-left: 10px;
+            background-color: #f0f1f1;
+            border-bottom: 2px solid #e2e2e2;
+            .middle {
+                // height: 98px;
+                padding: 15px;
+                border-bottom: 1px solid #e2e2e2;
+                .game-content {
+                    position: absolute;
+                    padding: 15px;
+                    left: 80px;
+                    top: 0;
+                    h3 {
+                        font-size: 18px;
+                    }
+                    p {
+                        font-size: 12px;
+                        padding-top: 4px;
+                        color: #999;
+                        em {
+                            color: #f60;
+                        }
+                    }
+                }
+            }
+            .bottom {
+                width: 210px;
+                height: 26px;
+                line-height: 26px;
+                text-align: center;
+                a {
+                    display: inline-block;
+                    width: 210px;
+                    height: 26px;
+                    font-size: 12px;
+                    color: #666;
+                    &:hover {
+                        background-color: #e2e2e2;
+                        color: #f60;
+                    }
+                }
+            }
         }
     }
 }
