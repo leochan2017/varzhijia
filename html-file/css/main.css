@@ -263,7 +263,6 @@ textarea {
 .index-hotnew .left {
   width: 550px;
   height: 590px;
-  border: 1px solid #000;
 }
 .index-hotnew .left .top h2 {
   margin-top: 10px;
@@ -295,6 +294,7 @@ textarea {
 }
 .index-hotnew .left .bottom ul li a {
   text-align: center;
+  color: #333;
 }
 .index-hotnew .center {
   position: absolute;
@@ -302,7 +302,29 @@ textarea {
   left: 570px;
   width: 290px;
   height: 590px;
-  border: 1px solid #000;
+}
+.index-hotnew .center ul > li {
+  height: 75px;
+  margin-bottom: 10px;
+  position: relative;
+  border-bottom: 1px #e7e7e7 solid;
+}
+.index-hotnew .center ul > li:hover {
+  opacity: 0.8;
+  -webkit-opacity: 0.8;
+  -moz-opacaty: 0.8;
+  -ms-opacaty: 0.8;
+  -o-opacaty: 0.8;
+  border-bottom: 1px #1B6FAB solid;
+}
+.index-hotnew .center ul > li p {
+  position: absolute;
+  color: #333;
+  height: 60px;
+  font-size: 16px;
+  overflow: hidden;
+  left: 110px;
+  top: 0;
 }
 .index-hotnew .right {
   position: absolute;
@@ -310,7 +332,9 @@ textarea {
   left: 880px;
   width: 290px;
   height: 590px;
-  border: 1px solid #000;
+}
+.index-hotnew .right ul > li {
+  margin-bottom: 20px;
 }
 body {
   font-family: "Microsoft Yahei", Helvetica, sans-serif;
@@ -320,4 +344,12 @@ body {
 .w1170 {
   width: 1170px;
   margin: 0 auto;
+}
+a:hover {
+  opacity: 0.8;
+  -webkit-opacity: 0.8;
+  -moz-opacaty: 0.8;
+  -ms-opacaty: 0.8;
+  -o-opacaty: 0.8;
+  cursor: pointer;
 }
