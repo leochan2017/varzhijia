@@ -231,6 +231,7 @@ body {
   font-family: "Microsoft Yahei", Helvetica, sans-serif;
   font-size: 14px;
   min-width: 1170px;
+  background-color: #f8f8f8;
 }
 .w1170 {
   width: 1170px;
@@ -355,14 +356,11 @@ a:hover {
 .index-hotnew .right ul > li {
   margin-bottom: 20px;
 }
-.index-hotgame {
-  margin-bottom: 30px;
-}
-.index-hotgame .title {
+.index-block-title {
   height: 28px;
   background-color: #e3e3e3;
 }
-.index-hotgame .title h2 {
+.index-block-title h2 {
   width: 88px;
   height: 28px;
   line-height: 28px;
@@ -372,6 +370,9 @@ a:hover {
   padding-left: 10px;
   padding-right: 10px;
   font-size: 22px;
+}
+.index-hotgame {
+  margin-bottom: 30px;
 }
 .index-hotgame .content {
   overflow: hidden;
@@ -424,4 +425,149 @@ a:hover {
 .index-hotgame .content ul > li .bottom a:hover {
   background-color: #e2e2e2;
   color: #f60;
+}
+.index-picture {
+  margin-bottom: 30px;
+}
+.index-picture .content ul > li {
+  display: inline-block;
+  padding: 20px 8px;
+}
+.footer {
+  width: 100%;
+  position: relative;
+  background-color: #2D2D2D;
+  color: #999;
+  font-size: 12px;
+  padding-top: 40px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.footer a:hover {
+  color: #fff;
+}
+.footer-top {
+  position: relative;
+  height: 130px;
+}
+.footer-top-left {
+  width: 195px;
+}
+.footer-top-left p {
+  height: 34px;
+  line-height: 34px;
+  letter-spacing: 10.5px;
+  width: 210px;
+}
+.footer-top-left .followwe span {
+  line-height: 20px;
+  display: block;
+  float: left;
+}
+.footer-top-left .followwe a {
+  display: block;
+  text-indent: -9999px;
+  overflow: hidden;
+  float: left;
+  width: 20px;
+  height: 20px;
+  background-image: url("../images/sico.png");
+  background-repeat: no-repeat;
+  margin: 0 0 0 16px;
+}
+.footer-top-left .followwe .wechat {
+  background-position: 0 0;
+}
+.footer-top-left .followwe .wechat:hover {
+  background-position: 0 -20px;
+}
+.footer-top-left .followwe .sina {
+  background-position: -32px 0;
+}
+.footer-top-left .followwe .sina:hover {
+  background-position: -32px -20px;
+}
+.footer-top-left .followwe .tencent {
+  background-position: -65px 0;
+}
+.footer-top-left .followwe .tencent:hover {
+  background-position: -65px -20px;
+}
+.footer-top-left .followwe .rss {
+  background-position: -98px 0;
+}
+.footer-top-left .followwe .rss:hover {
+  background-position: -98px -20px;
+}
+.footer-top-center {
+  position: absolute;
+  top: 0;
+  left: 200px;
+  margin-left: 40px;
+  padding-left: 28px;
+  border-left: 1px solid #4c4c4c;
+  width: 225px;
+}
+.footer-top-center img {
+  display: block;
+  float: left;
+  margin-right: 23px;
+  width: 105px;
+}
+.footer-top-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-top: 11px;
+}
+.footer-top-right p {
+  line-height: 26px;
+}
+.footer-top-right p span {
+  color: #fff;
+  font-size: 16px;
+}
+.footer-top-right p a {
+  display: inline-block;
+  margin: 0 0 0 20px;
+  color: #999;
+  text-decoration: none;
+}
+.footer-middle {
+  position: relative;
+  height: 90px;
+  padding: 20px 0;
+  border-top: 1px solid #4c4c4c;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.footer-middle a {
+  margin: 0 6px;
+  display: inline-block;
+  color: #999;
+  text-decoration: none;
+  line-height: 24px;
+}
+.footer-middle-right {
+  position: absolute;
+  left: 70px;
+  top: 16px;
+}
+.footer-bottom {
+  padding: 20px 0;
+  border-top: 1px solid #4c4c4c;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.footer-bottom a {
+  color: #999;
+  text-decoration: none;
+}
+.footer-bottom p {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.footer-bottom p a {
+  display: inline-block;
+  width: 80px;
 }
