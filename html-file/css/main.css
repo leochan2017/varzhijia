@@ -196,13 +196,20 @@ textarea {
   background-position: 50% 0;
 }
 .nav_wrapper .logo {
+  position: relative;
+  left: 9%;
+  top: 30%;
+  width: 144px;
+  height: 43px;
   padding: 12px 0 0 10px;
+  background: url('../images/logo.png') no-repeat center;
 }
 .nav_wrapper .right {
   position: absolute;
-  top: 40px;
+  top: 50%;
+  margin-top: -23px;
   right: 50px;
-  height: 130px;
+  height: 46px;
   vertical-align: middle;
 }
 .nav_wrapper .right div {
@@ -512,7 +519,8 @@ a:hover {
   display: block;
   float: left;
   margin-right: 23px;
-  width: 105px;
+  width: 124px;
+  height: 124px;
 }
 .footer-top-right {
   position: absolute;
